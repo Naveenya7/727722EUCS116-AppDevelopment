@@ -1,0 +1,12 @@
+{
+  "clients": [
+    {
+      "id": "b173",
+      "name": "abc",
+      "email": "1@gmail.com",
+      "password": "123",
+      "company": "123"
+    }
+  ],
+  "providers": []
+}
