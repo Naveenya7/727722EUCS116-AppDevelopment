@@ -1,0 +1,41 @@
+{
+  "clients": [
+    {
+      "id": "f227",
+      "name": "naveenya",
+      "email": "naveenyapalaniappan@gmail.com",
+      "password": "12345678",
+      "company": "abc"
+    },
+    {
+      "id": "1ee3",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "123",
+      "company": "123"
+    },
+    {
+      "id": "f09e",
+      "name": "Naveenya",
+      "email": "naveenyapalaniappan@gmail.com",
+      "password": "Latha@10",
+      "company": "abc"
+    },
+    {
+      "id": "e805",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "Hello@123",
+      "company": "abc"
+    }
+  ],
+  "providers": [
+    {
+      "id": "5827",
+      "name": "123",
+      "email": "esrd@gmail.com",
+      "password": "123",
+      "company": "ddex"
+    }
+  ]
+}

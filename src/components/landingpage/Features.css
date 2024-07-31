@@ -1,0 +1,114 @@
+.features {
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.features-title {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
+  margin-bottom: 75px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allows items to wrap in smaller viewports */
+}
+
+.feature-item.left {
+  flex-direction: row;
+}
+
+.feature-item.right {
+  flex-direction: row-reverse;
+}
+
+.feature-image {
+  flex: 1;
+  padding: 10px;
+}
+
+.feature-image img {
+  width: 100%; /* Make image responsive */
+  max-width: 600px;  /* Ensure image does not exceed this width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 8px;
+}
+
+.feature-description {
+  flex: 1;
+  padding: 10px;
+}
+
+.feature-description h3 {
+  margin: 0 0 10px;
+  font-size: 1.8em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(10, 24, 59);
+}
+
+.feature-description p {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+  .features {
+    padding: 20px 10px;
+  }
+
+  .feature-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-image {
+    width: 100%;
+    padding: 0;
+  }
+
+  .feature-description {
+    padding: 10px;
+  }
+
+  .feature-image img {
+    width: 100%; /* Ensure image takes full width of the container */
+    max-width: none; /* Remove max-width restriction */
+  }
+
+  .feature-description h3 {
+    font-size: 1.6em;
+  }
+
+  .feature-description p {
+    font-size: 1.2em;
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.6em;
+    margin-bottom: 50px;
+  }
+
+  .feature-description h3 {
+    font-size: 1.4em;
+  }
+
+  .feature-description p {
+    font-size: 1em;
+  }
+}
